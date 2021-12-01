@@ -2,7 +2,7 @@ const content = [130, 142, 148, 147, 157, 160, 162, 160, 165, 164, 171, 169, 160
 
 k = 0
 
-for (i = 0; i < content.length-3; i++) {
+for (i = 0; i < content.length - 3; i++) {
     first = content[i] + content[i + 1] + content[i + 2]
     second = content[i + 1] + content[i + 2] + content[i + 3]
     if (first < second) {
